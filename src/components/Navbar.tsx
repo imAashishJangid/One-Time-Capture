@@ -31,14 +31,13 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-background/95 backdrop-blur-md shadow-soft' : 'bg-transparent'
-    }`}>
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-soft transition-all duration-300">
+
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-xl font-serif font-bold text-foreground">
-            CHARLOTTE McCOY
+            {/* CHARLOTTE McCOY */}
           </div>
 
           {/* Desktop Navigation */}

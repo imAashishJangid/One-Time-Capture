@@ -15,7 +15,8 @@ const HeroSection = () => {
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-hero"></div>
+   <div className="absolute inset-0 bg-white/10"></div>
+
       
       {/* Content */}
       <div className="relative z-10 text-center text-white px-6">
@@ -42,20 +43,20 @@ const HeroSection = () => {
         </p>
         
         {/* CTA Button */}
-        <button 
+        {/* <button 
           onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}
           className="bg-elegant-gold hover:bg-elegant-gold-dark text-elegant-dark px-8 py-3 text-sm font-medium tracking-wider transition-all duration-300 hover:scale-105"
         >
           VIEW PORTFOLIO
-        </button>
+        </button> */}
       </div>
       
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
+      {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
         <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
           <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

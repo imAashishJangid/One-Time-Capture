@@ -18,9 +18,9 @@ const QuoteSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
         <h2 className="font-serif text-4xl md:text-6xl font-light leading-tight">
-          "Capturing the moments<br />
-          of today that will wow<br />
-          your heart tomorrow"
+          "Memories fade,<br />
+          but photographs<br />
+          keep them alive."
         </h2>
       </div>
     </section>

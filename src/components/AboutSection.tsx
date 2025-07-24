@@ -26,29 +26,22 @@ const AboutSection = () => {
             
             <div className="w-16 h-px bg-elegant-gold-dark mb-8"></div>
             
-            <div className="space-y-6 text-elegant-gray leading-relaxed">
+            <div  className="space-y-6 text-elegant-gray leading-relaxed">
               <p>
-                I'm a passionate wedding photographer with over 8 years of experience capturing love stories. 
-                My approach blends timeless elegance with authentic moments, creating images that tell your unique story.
-              </p>
+              <p>
+            <span className="text-xl md:text-2xl font-extrabold text-elegant-dark tracking-wide">
+            Hi, I’m Arjun
+            </span> — the heart behind the lens.<br /><br/>
+             Photography, for me, is more than just images. It’s about connection. Emotion. Story. Whether it’s the quiet in-between moments or the loudest laugh of the day, I believe the most powerful photographs are the ones that feel real.
+            </p>
+            
+                </p>
               
               <p>
-                Every wedding is a new adventure, and I feel honored to document these precious moments. 
-                From the quiet anticipation of getting ready to the joyful celebration with family and friends, 
-                I'm there to capture it all with an artistic eye and genuine heart.
+               Let’s create something meaningful together — something that’ll still make your heart skip years from now.
               </p>
               
-              <p>
-                This is a great space to write about your company and your services. You can use this space to go 
-                into a little more detail about your company. Talk about your team and what services you provide. 
-                Tell your visitors the story of how you came up with the idea for your business and what makes you 
-                different from your competitors.
-              </p>
-              
-              <p>
-                Make your company stand out and show your visitors who you are. Talk about your passion for 
-                capturing beautiful moments and creating lasting memories for couples on their special day.
-              </p>
+               
             </div>
             
             <div className="mt-8">

@@ -14,10 +14,12 @@ const Index = () => {
       <SocialMedia />
       
       {/* Main Sections */}
+      
       <HeroSection />
       <QuoteSection />
+         <AboutSection />
       <PortfolioSection />
-      <AboutSection />
+   
       <ContactSection />
     </div>
   );

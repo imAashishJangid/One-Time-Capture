@@ -15,7 +15,7 @@ const HeroSection = () => {
       }}
     >
       {/* Overlay */}
-   <div className="absolute inset-0 bg-white/10"></div>
+   <div className="absolute inset-0 bg-black/30"></div>
 
       
       {/* Content */}
@@ -28,13 +28,14 @@ const HeroSection = () => {
         </div>
         
         {/* Main Title */}
-        <h1 className="font-serif text-5xl md:text-7xl font-light mb-4 tracking-wide">
-          CHARLOTTE McCOY
+       <h1 className="font-serif text-5xl md:text-7xl font-bold mb-4 tracking-wide text-[ghostwhite]">
+
+           One Time Capture
         </h1>
         
         {/* Subtitle */}
         <p className="text-lg md:text-xl tracking-[0.3em] mb-8 text-elegant-cream">
-          WEDDING PHOTOGRAPHY
+           Capturing Moments
         </p>
         
         {/* Description */}
